@@ -1,0 +1,49 @@
+body {
+  font-family: 'Tahoma', sans-serif;
+  background-image: url('blox.png'); /* اسم الصورة */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  text-align: center;
+  color: #ffffff;
+}
+
+.container {
+   max-width: 700px;
+  margin: auto;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.7); /* خلفية شبه شفافة */
+  box-shadow: 0 0 15px rgba(255,255,255,0.1);
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.details p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #eeeeee; /* لون أفتح للنص */
+}
+
+.button {
+  display: inline-block;
+  background-color: #25d366; /* أخضر واتساب */
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #1ebd5a;
+}
